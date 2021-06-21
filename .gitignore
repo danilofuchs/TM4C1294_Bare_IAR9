@@ -11,20 +11,12 @@
 *.eww
 
 # IAR Settings
-**/settings/*.crun
-**/settings/*.dbgdt
-**/settings/*.cspy
-**/settings/*.cspy.*
-**/settings/*.xcl
-**/settings/*.dni
-**/settings/*.wsdt
-**/settings/*.wspos
+**/settings
 
 # IAR Debug Exe
+**/Debug
 **/Debug/Exe/
-
-# IAR Debug List
-**/Debug/List
+**/Exe/*.sim
 
 # IAR Debug Obj
 **/Obj/*.pbd
@@ -46,6 +38,12 @@ Backup*
 *.elf
 *.hex
 *.map
+**/ewarm
 
 # Trash files
 *.bak
+
+# Ninja clutter
+**/.ninja_deps
+**/.ninja_log
+**/build.ninja
