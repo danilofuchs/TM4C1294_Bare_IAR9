@@ -6,6 +6,8 @@
 #include "driverlib/sysctl.h"
 #include "driverlib/systick.h"
 
+// LED D4 = PF0
+#define LED_D4_PERIPHERAL SYSCTL_PERIPH_GPIOF
 #define LED_D4_PORT_BASE GPIO_PORTF_BASE
 #define LED_D4_PIN GPIO_PIN_0
 
@@ -23,12 +25,11 @@ void setup_system_clock()
 
 void setup_led_d4()
 {
-  SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOF); // Habilita GPIO F (LED D4 = PF0)
-  while (!SysCtlPeripheralReady(SYSCTL_PERIPH_GPIOF))
-    ; // Aguarda final da habilitação
+  SysCtlPeripheralEnable(LED_D4_PERIPHERAL);
+  while (!SysCtlPeripheralReady(LED_D4_PERIPHERAL))
+    ;
 
-  GPIOPinTypeGPIOOutput(LED_D4_PORT_BASE, LED_D4_PIN); // LEDs D4 como saída
-  GPIOPinWrite(LED_D4_PORT_BASE, LED_D4_PIN, 0);       // LEDs D4 apagado
+  GPIOPinTypeGPIOOutput(LED_D4_PORT_BASE, LED_D4_PIN);
   GPIOPadConfigSet(LED_D4_PORT_BASE, LED_D4_PIN, GPIO_STRENGTH_12MA, GPIO_PIN_TYPE_STD);
 }
 
@@ -38,6 +39,7 @@ void main(void)
   setup_led_d4();
 
   uint8_t led_d4_state = 0;
+  GPIOPinWrite(LED_D4_PORT_BASE, LED_D4_PIN, 0);
 
   uint32_t counter_max = PERIOD_SECONDS * SYSTEM_CLOCK / CLOCKS_PER_EMPTY_LOOP;
   while (1)
