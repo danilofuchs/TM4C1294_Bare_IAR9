@@ -1,5 +1,5 @@
 {
-  "iarvsc.iarInstallDirectories": ["D:\\Program Files\\IAR Systems"],
+  "iarvsc.iarInstallDirectories": ["C:\\Program Files\\IAR Systems"],
   "files.associations": {
     "*.h": "c"
   }

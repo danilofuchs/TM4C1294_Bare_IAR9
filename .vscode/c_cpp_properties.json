@@ -409,10 +409,10 @@
             ],
             "includePath": [
                 "c:\\Users\\danil\\Documents\\git\\TM4C1294_Bare_IAR9\\TivaWare_C_Series-2.1.4.178",
-                "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\aarch32",
-                "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc",
-                "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c",
-                "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\cpp"
+                "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c\\aarch32",
+                "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc",
+                "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\c",
+                "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\inc\\cpp"
             ],
             "forcedInclude": [],
             "cStandard": "c11",

@@ -1,6 +1,6 @@
 {
     "ewp": "c:\\Users\\danil\\Documents\\git\\TM4C1294_Bare_IAR9\\Projects\\simple_io_main_sp\\simple_io_main_sp.ewp",
     "configuration": "Debug",
-    "compiler": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\bin\\iccarm.exe",
-    "workbench": "D:\\Program Files\\IAR Systems\\Embedded Workbench 9.0"
+    "compiler": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0\\arm\\bin\\iccarm.exe",
+    "workbench": "C:\\Program Files\\IAR Systems\\Embedded Workbench 9.0"
 }
