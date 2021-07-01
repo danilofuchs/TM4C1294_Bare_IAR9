@@ -680,7 +680,7 @@
                 </option>
                 <option>
                     <name>IlinkOutputFile</name>
-                    <state>lab01.out</state>
+                    <state>Laboratorio_01.out</state>
                 </option>
                 <option>
                     <name>IlinkDebugInfoEnable</name>
@@ -977,7 +977,7 @@
                 </option>
                 <option>
                     <name>IlinkTrustzoneImportLibraryOut</name>
-                    <state>lab01_import_lib.o</state>
+                    <state>Laboratorio_01_import_lib.o</state>
                 </option>
                 <option>
                     <name>OILinkExtraOption</name>
@@ -2089,7 +2089,7 @@
         <name>$PROJ_DIR$\..\..\TivaWare_C_Series-2.1.4.178\driverlib\ewarm\Exe\driverlib.a</name>
     </file>
     <file>
-        <name>$PROJ_DIR$\src\lab1.c</name>
+        <name>$PROJ_DIR$\src\main.c</name>
     </file>
     <file>
         <name>$PROJ_DIR$\src\startup_TM4C1294.s</name>

@@ -10,4 +10,4 @@ Things may break unexpectedly, change at your own risk.
 
 ## Projects
 
-- [Lab 01](./Projects/lab01) - Blinking LED using delay loops, analyzing clock speeds and compiler optimization levels
+- [Lab 01](./Projects/Laboratorio_01) - Blinking LED using delay loops, analyzing clock speeds and compiler optimization levels
