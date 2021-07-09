@@ -6,6 +6,8 @@ Build a blinking LED using delay loops, instead of timer interrupts.
 
 Analyze how different compiler optimization levels can break the implementation.
 
+[Instructions (Portuguese)](./lab1.pdf)
+
 ## Implementation
 
 A naive implementation of a delay loop considering the system clock, a period and
