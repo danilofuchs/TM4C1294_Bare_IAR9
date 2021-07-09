@@ -1,0 +1,38 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLSpecialState</id><coordinates><x>0</x><y>130</y><w>20</w><h>20</h></coordinates><panel_attributes>type=initial</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>120</y><w>110</w><h>40</h></coordinates><panel_attributes>lt=-&gt;
+interrupt</panel_attributes><additional_attributes>10;20;90;20</additional_attributes></element><element><id>Relation</id><coordinates><x>10</x><y>130</y><w>70</w><h>30</h></coordinates><panel_attributes>lt=-&gt;</panel_attributes><additional_attributes>10;10;50;10</additional_attributes></element><element><id>UMLState</id><coordinates><x>60</x><y>100</y><w>120</w><h>80</h></coordinates><panel_attributes>Thread Mode
+symbol=substate</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>260</x><y>120</y><w>90</w><h>40</h></coordinates><panel_attributes>Stacking</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>490</x><y>110</y><w>120</w><h>60</h></coordinates><panel_attributes>Exception
+Handler
+--
+do / runCode</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>340</x><y>120</y><w>170</w><h>40</h></coordinates><panel_attributes>lt=-&gt;
+success              </panel_attributes><additional_attributes>10;20;150;20</additional_attributes></element><element><id>UMLState</id><coordinates><x>430</x><y>30</y><w>450</w><h>280</h></coordinates><panel_attributes>Handler Mode
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>600</x><y>110</y><w>270</w><h>120</h></coordinates><panel_attributes>lt=-&gt;
+Exception Return [interrupt PEND == 1]
+</panel_attributes><additional_attributes>10;20;250;20;250;100</additional_attributes></element><element><id>UMLState</id><coordinates><x>260</x><y>260</y><w>90</w><h>40</h></coordinates><panel_attributes>Unstacking</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>780</x><y>210</y><w>90</w><h>40</h></coordinates><panel_attributes>Tail Chaining</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>580</x><y>160</y><w>220</w><h>90</h></coordinates><panel_attributes>lt=-&gt;
+success</panel_attributes><additional_attributes>200;70;10;70;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>110</x><y>170</y><w>170</w><h>130</h></coordinates><panel_attributes>lt=-&gt;
+success</panel_attributes><additional_attributes>150;110;10;110;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>340</x><y>270</y><w>110</w><h>30</h></coordinates><panel_attributes>lt=-&gt;</panel_attributes><additional_attributes>90;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>420</x><y>150</y><w>360</w><h>160</h></coordinates><panel_attributes>lt=-
+
+
+
+
+
+
+
+
+Exception Return [interrupt PEND == 0]
+</panel_attributes><additional_attributes>130;20;130;130;10;130</additional_attributes></element></diagram>
